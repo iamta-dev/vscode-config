@@ -1,6 +1,7 @@
 # Base Extensions
 # https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode
 
+--uninstall-extension
 code --uninstall-extension vscodevim.vim
 
 code --install-extension github.copilot-chat
@@ -17,8 +18,8 @@ code --install-extension jock.svg
 
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode-remote.remote-containers
-code --uninstall-extension ms-vscode-remote.remote-wsl
-code --uninstall-extension ms-vscode.live-server
+code --install-extension ms-vscode-remote.remote-wsl
+code --install-extension ms-vscode.live-server
 
 
 # Node.js & Typescript Extensions
